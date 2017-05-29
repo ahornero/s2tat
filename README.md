@@ -22,6 +22,8 @@ Upgrade to GDAL 2.2 (available from GDAL >= 2.1.3)
 ```sh
 $ conda install -c conda-forge gdal=2.2.0
 ```
+### GDAL with S2
+Examples and documentation: [Driver for Sentinel-2 products](http://www.gdal.org/frmt_sentinel2.html) downloaded from [the Sentinels Scientific Data Hub](https://scihub.copernicus.eu/).
 
 ## Sentinelsat
 A very [usefull tool](https://github.com/ibamacsr/sentinelsat) to find and download Copernicus Sentinel satellite images.
@@ -33,3 +35,4 @@ $ pip install sentinelsat
 ```sh
 $ sentinel search --sentinel2 --md5 --cloud 10 -s 20160620 -e 20160630 <username> <password> <your-map>.geojson
 ```
+GeoJSON Map tool: [geojson.io](http://geojson.io)
