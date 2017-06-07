@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 
 rem Get start time:
 for /F "tokens=1-4 delims=:.," %%a in ("%time%") do (
