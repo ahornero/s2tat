@@ -15,6 +15,8 @@ $ pip install numpy==1.11.3
 ```sh
 $ L2A_Process S2A_OPER_PRD_MSIL1C_PDMC_20160626T150256_R136_V20160626T093744_20160626T093744.SAFE
 ```
+### Execution example with elapsed time
+[elapsed_time.sh](https://github.com/ahornero/s2tat/blob/master/elapsed_time.sh) and [elapsed_time.bat](https://github.com/ahornero/s2tat/blob/master/elapsed_time.bat)
 
 ## GDAL
 ### .jp2 and [Sentinel-2 driver](http://www.gdal.org/frmt_sentinel2.html) compatibility
